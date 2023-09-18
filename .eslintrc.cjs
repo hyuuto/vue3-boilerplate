@@ -2,21 +2,22 @@
 require("@rushstack/eslint-patch/modern-module-resolution");
 
 module.exports = {
-  root: true,
-  env: {
-    node: true,
-  },
-  extends: [
-    "plugin:vue/vue3-essential",
-    "eslint:recommended",
-    "@vue/eslint-config-prettier",
-  ],
-  rules: {
-    "prettier/prettier": [
-      "error",
-      {
-        endOfLine: "auto",
-      },
-    ],
-  },
+	root: true,
+	env: {
+		node: true,
+	},
+	extends: [
+		"plugin:vue/vue3-essential",
+		"eslint:recommended",
+		"@vue/eslint-config-prettier",
+	],
+	rules: {
+		"usetabs": false,
+		"prettier/prettier": [
+			"error",
+			{
+				endOfLine: "auto",
+			},
+		],
+	},
 };
