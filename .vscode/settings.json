@@ -1,0 +1,10 @@
+{
+    "editor.detectIndentation": false,
+    "editor.insertSpaces": false,
+    "[javascript]": {
+        "editor.tabSize": 2,
+    },
+    "[vue]": {
+        "editor.tabSize": 4,
+    }
+}
